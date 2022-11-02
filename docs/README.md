@@ -1,3 +1,0 @@
-# mydocsify
-
-> An awesome project.
