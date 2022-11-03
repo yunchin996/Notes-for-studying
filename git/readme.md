@@ -115,15 +115,15 @@ git commit <filename>  -m "message"
 git log
 ```
 #### 命令行参数
+
 |参数|解释|
-| :---|:---|
-| -a|`先`将所有工作区的变动文件，提交到暂存区，`再`运行`git commit`则不用执行`git add .`|
+|:---|:---|
+|-a|`先`将所有工作区的变动文件，提交到暂存区，`再`运行`git commit`则不用执行`git add .`|
 |allow-empty|用于`没有提交`信息的 commit|
 |--amend|`撤销上一次 `commit，然后生成一个`新的 commit`|
 |--fixup|当前添加的 commit 是以前某一个 commit` 的修正`。以后执行互动式的`git rebase`的时候，这两个 commit 将会`合并`成一个|
 |-m|添加提交说明|
 |--squash|作用与`--fixup`类似|
-
 
 ###  六、标签tag
 #### 本地
